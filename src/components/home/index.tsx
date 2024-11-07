@@ -1,16 +1,18 @@
-import ComponentsHome from './components'
-import './home.css'
+// import ComponentsHome from './components'
+import Clients from './clients'
+import Features from './features'
+import Hero from './hero'
+// import './home.css'
+import Pricing from './pricing'
 
 const HomeComp = () => {
     return (
-        <div>
-            <h1>Components Home : </h1>
-            <div className='content'>
-            <ComponentsHome text="Components 1" />
-            <ComponentsHome text="Components 2" />
-
-            </div>
-        </div>
+        <main className="site-content">
+				<Hero />
+				<Clients />
+				<Features />
+				<Pricing />
+			</main>
     )
 }
 
